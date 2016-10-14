@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>圖書館借書系統</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	</head>
+	<body>
+		<h1>圖書館借書系統</h1>
+		
+		<form>
+			<fieldset>
+				<legend>租借資訊</legend>
+				書名:
+					<input type="text" name="Bookname" value="Web Programming"><br>
+				姓名:
+					<input type="text" name="Username" value="陳泓諭"><br>
+				性別:<br>
+					<input type="radio" name="gender" value="male" checked> 男
+					<input type="radio" name="gender" value="female"> 女<br>
+				學系:
+					<select name="department">
+						<option value="Information Engineering">資訊工程</option>
+						<option value="Electrical Engineering">電機工程</option>
+						<option value="Communication Department">通訊工程</option>
+					</select><br><br>
+			
+				<input type="submit" value="送出">
+				<input type="reset" value="重填">
+			</fieldset>
+		</form>
+
+	</body>
+</html>
